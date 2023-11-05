@@ -68,11 +68,11 @@ const Mint = () => {
       return;
     }
     if (addrList?.length <= 0) {
-      toast.warn('Please input addresses.');
+      toast.warn('Please input addresses!');
       return;
     }
-    if (addrList?.length > 600) {
-      toast.warn('The count of the maximum address is 600.');
+    if (addrList?.length > 500) {
+      toast.warn('The count of the maximum address is 500.');
       return;
     }
     try {
